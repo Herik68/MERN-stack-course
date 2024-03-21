@@ -1,8 +1,11 @@
-import Main2 from "./components/2nd Assignment/Main2";
+import FirstContextProvider from "./components/context/Firstcontext";
+import Child from "./Child";
 
 function App() {
   return(
-    <Main2/>
+    <FirstContextProvider>
+      <Child></Child>
+    </FirstContextProvider>
   )
 }
 
